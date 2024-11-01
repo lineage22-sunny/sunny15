@@ -11,6 +11,7 @@ repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
 # --force-sync: Ensure a full sync of all repositories
 # -j$(nproc --all): Use all available CPU cores
 # repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
+/opt/crave/resync.sh
 
 # Remove existing directories for a fresh setup (cleans up old device, vendor, and other paths)
 rm -rf device/xiaomi/sunny
