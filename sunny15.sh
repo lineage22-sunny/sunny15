@@ -43,7 +43,7 @@ git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fifteen v
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fifteen vendor/qcom/opensource/core-utils
 
 # Clone package repositories for additional features
-git clone https://github.com/yaap/packages_apps_DisplayFeatures.git --depth 1 -b fifteen packages/apps/DisplayFeatures
+git clone https://github.com/cyberknight777/android_packages_apps_DisplayFeatures packages/apps/DisplayFeatures
 git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --depth 1 -b main packages/apps/KProfiles
 
 # Clone hardware repositories for Xiaomi and Qualcomm's SM8150 platform
