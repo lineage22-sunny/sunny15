@@ -2,7 +2,8 @@
 
 # Initialize the ROM manifest for RisingTech on branch 'fifteen' with Git LFS enabled
 # repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
-repo init -u https://github.com/RisingOS-staging/android -b fifteen --git-lfs
+# repo init -u https://github.com/RisingOS-staging/android -b fifteen --git-lfs
+repo init -u https://github.com/LineageOS/android.git -b lineage-22.0 --git-lfs
 
 # Sync the repository with various options for efficient and clean syncing:
 # -c: Current branch only
@@ -55,7 +56,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aa
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi.git --depth 1 -b 12.0.0 prebuilts/gcc/linux-x86/arm/arm-eabi
 
 # Rising private keys
-git clone https://github.com/sunny-keys/lineage-priv-risingos.git --depth 1 -b main vendor/lineage-priv/keys
+# git clone https://github.com/sunny-keys/lineage-priv-risingos.git --depth 1 -b main vendor/lineage-priv/keys
 
 # Set up the environment for building (loads variables and functions for the build process)
 . build/envsetup.sh
