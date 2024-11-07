@@ -64,6 +64,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 # Specify the build target device and user variant
 # riseup sunny user
 breakfast bacon
+brunch bacon
 
 # Start the build process
 # rise b
